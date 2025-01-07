@@ -38,7 +38,7 @@ store.on("error",()=>{
 })
 
 const sessionOption={
-    store,
+    store:store,
     secret:"mysupersecretstring",
     resave:false,
     saveUninitialized:true,
